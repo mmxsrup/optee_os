@@ -71,7 +71,7 @@
  *
  * [in]     memref[0]        Nonce
  * [out]    memref[1]        SHA256 hash of the TA memory followed by a
- *                           signature. See PTA_ATTESTATION_GET_TA_HDR_DIGEST
+ *                           signature. See PTA_ATTESTATION_GET_TA_SHDR_DIGEST
  *                           for a description of the signature.
  *
  * Return codes:
@@ -89,7 +89,7 @@
  *
  * [in]     memref[0]        Nonce
  * [out]    memref[1]        SHA256 hash of the TEE memory followed by a
- *                           signature. See PTA_ATTESTATION_GET_TA_HDR_DIGEST
+ *                           signature. See PTA_ATTESTATION_GET_TA_SHDR_DIGEST
  *                           for a description of the signature.
  *
  * Return codes:
